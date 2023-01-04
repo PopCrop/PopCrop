@@ -1,0 +1,68 @@
+/*BWF Rankings Styles*/
+.BWFrankings {
+    grid-column: 2 / -1;
+    grid-row: 2/-1;
+    width: 100%;
+    padding-left: 50px;
+    background-color: #24344a;
+    color: white;
+    border: 0.5px solid black;
+  }
+
+  .MuiPaper-elevation2 {
+    background-color: #88919D;
+  }
+
+  .ranktable td, .ranktable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    padding-right: 20px;
+  }
+
+  .ranktable th {
+    background-color: #1c293b;
+  }
+
+  .ranktable tr:nth-child(even){background-color: #39485c;}
+
+  .MuiTableBody-root tr:hover {background-color: #e6e6e6;}
+
+  #MSranktable {
+    display: none;
+    padding-top: 20px;
+    color: white;
+    margin-bottom: 50px;
+    width: 91%;
+  }
+
+  #WSranktable {
+    display: none;
+    padding-top: 20px;
+    color: white;
+    margin-bottom: 50px;
+    width: 91%;
+  }
+
+  #MDranktable {
+    display: none;
+    padding-top: 20px;
+    color: white;
+    margin-bottom: 50px;
+    width: 91%;
+  }
+
+  #WDranktable {
+    display: none;
+    padding-top: 20px;
+    color: white;
+    margin-bottom: 50px;
+    width: 91%;
+  }
+
+  #XDranktable {
+    display: none;
+    padding-top: 20px;
+    color: white;
+    margin-bottom: 50px;
+    width: 91%;
+  }

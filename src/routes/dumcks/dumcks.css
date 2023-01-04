@@ -1,0 +1,65 @@
+/*Dumck styles*/
+.container {
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-rows: 75px;
+    grid-auto-flow: dense;
+  }
+  
+  .container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #ffeead;
+  }
+  
+  .container > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /*html, body {
+    background-color: #ffeead;
+    margin: 10px;
+  }*/
+  
+  .horizontal {
+    grid-column: span 2;
+  }
+  
+  .vertical {
+    grid-row: span 2;
+  }
+  
+  .big {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  
+  .duckcontent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: 2 / -1;
+    grid-row: 2/-1;
+    background-color: white;
+    padding-left: 10px;
+  }
+  
+  .aboutduck {
+    grid-column: 1 / 3;
+    grid-row: 1 / -1;
+  }
+
+  .ducksum {
+    grid-column: 3 / 3;
+    border-left: 0.5px solid grey;
+    padding-right: 25px;
+    padding-left: 5%;
+  }
+
+  .ducksum > h4 {
+    margin-bottom: -8px;
+  }

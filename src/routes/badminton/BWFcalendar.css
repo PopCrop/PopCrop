@@ -1,0 +1,98 @@
+/*BWF Calendar Styles*/
+.BWFcalendar {
+    grid-column: 2 / -1;
+    grid-row: 2/-1;
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #24344a;
+    color: white;
+    border: 0.5px solid black;
+  }
+  
+.BWFcalendar > h1 {
+  margin-left: 25px;
+}
+
+.month{
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  background-color: #39485C;
+  margin: 25px;
+  margin-right: 50px;
+}
+
+
+.tourneyname {
+  grid-column: 1 / 2;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.tourneyname > img {
+  max-width: 140px;
+  max-height: 140px;
+}
+
+.tourneydetails {
+  grid-column: 2 / 7;
+  padding-left: 30px;
+  margin-top: 30px;
+}
+
+.tourneydetails > h2 {
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: -15px;
+  margin-top: 10px;
+}
+
+.tourneydetails > h3 {
+  font-size: 22px;
+  font-weight: normal;
+  margin-bottom: -5px;
+}
+
+.tourneydetails > h4 {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.tourneytype {
+  display: grid;
+  grid-column: 7 / -1;
+  grid-template-rows: repeat(2, 1fr);
+  padding-top: 25px;
+  padding-right: 25px;
+}
+
+.tourneytype > img {
+  float: right;
+  padding-left: 15px;
+
+}
+
+.HSBC {
+  grid-row: 1 / 2;
+}
+
+.HSBC > img {
+  float: right;
+  width: 180px;
+}
+
+.tourneycountry {
+  grid-row: 2 / -1;
+}
+
+.tourneycountry > div {
+  float: right;
+}
+
+.tourneycountry > img {
+  max-width: 60px;
+  max-height: 40px;
+  padding-left: 15px;
+  float: right;
+}

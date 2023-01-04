@@ -1,0 +1,265 @@
+/*BWF Player Styles*/
+.lol {
+  grid-column: 2 / -1;
+  grid-row: 2 / -1;
+  color: black;
+  background-color: white;
+  padding-left: 50px;
+  padding-right: 75px;
+}
+
+.playertitle {
+  display: flex;
+  color: black;
+  padding-top: 30px;
+  background-color: white;
+}
+
+.playerimg > img {
+  max-width: 150px;
+  padding-right: 30px;
+}
+
+.playerflag {
+  display: flex;
+}
+
+.playerflag > img {
+  max-height: 40px;
+  max-width: 60px;
+  margin-right: 15px;
+  margin-top: 15px;
+  border: 2px solid black;
+}
+
+.playerres {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.tourney {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 30px);
+  grid-column: 1 / -1;
+  border: 1.5px solid black;
+}
+
+.tourneyimg {
+  grid-column: 1 / 3;
+  grid-row: 1 / -1;
+  padding-left: 7.5px;
+  padding-top: 7.5px;
+}
+
+.tourneyimg > img {
+  max-height: 75px;
+}
+
+.tourneytitle {
+  grid-column: 2 / -1;
+  grid-row: 1 / 2;
+  padding-top: 20px;
+  padding-left: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tourneydate {
+  grid-column: 2 / -1;
+  grid-row: 2 / -1;
+  padding-top: 20px;
+  padding-left: 30px;
+  font-size: 13px;
+}
+
+.matches{
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+
+}
+
+.oddmat {
+  grid-column: 1 / 4;
+}
+
+.evenmat {
+  grid-column: 4 / -1;  
+}
+
+.match {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(5, 30px);
+  border: 0.5px solid black;
+}
+
+.result {
+  grid-column: 1 / 7;
+  grid-row: 2 / -1;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.round {
+  grid-column: 1 / 7;
+  grid-row: 1 / 2;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.scoretitle {
+  grid-column: 7 / -1;
+  grid-row: 1 / 2;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.score {
+  grid-column: 7 / -1;
+  grid-row: 2 / -1;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.dbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dbtn:hover, .dbtn:focus {
+  background-color: #2980B9;
+}
+
+.ddown {
+  position: relative;
+  display: inline-block;
+}
+
+.ddown-content {
+  display: block;
+  position: absolute;
+  background-color: blue;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.ddown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+em
+
+.dropdown > li {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.dropdown > li > a {
+  display: block;
+  width: 80%;
+  color: white;
+  padding: 0px, 0px;
+  text-decoration: none;
+}
+
+.dropdown > li > a:hover {
+  background-color: #1b4e8c;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding-top: 5px;
+  padding-right: 10px;
+  z-index: 1;
+  background-color: #0C1E36;
+}
+
+.dropdown-content > li {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.dropdown-content > a {
+  float: left;
+  width: 100%;
+  text-align: center;
+  display: block;
+  width: 80%;
+  color: white;
+  padding: 0px, 0px;
+  text-decoration: none;
+}
+
+.dropdown-content > a:hover {
+  background-color: #1b4e8c;
+}
+
+.dropdown:hover .dropdown-content {
+  display: inline-grid;
+}
+
+a:link, a:visited {
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Individual Player Divs*/
+
+#Viktor {
+  display: none;
+}
+
+#SoYeong {
+  display: none;
+}
+
+#Yugo {
+  display: none;
+}
+
+#Kento {
+  display: none;
+}
+
+#Nozomi {
+  display: none;
+}
+
+#TzuYing {
+  display: none;
+}
+
+#Yuta { 
+  display: none;
+}
+
+#Akane {
+  display: none;
+}
+
+#ChunMan { 
+  display: none;
+}
+
+#Yuki { 
+  display: none;
+}

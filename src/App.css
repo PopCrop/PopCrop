@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+/* App/main page styles*/
+.App {
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 80px auto 80px;
+  background-color: #0C1E36;
+  font-family: "Lato", sans-serif;
+  min-height: 600px;
+  height: auto !important;
+  height: 600px;
+}
+
+.homepage {
+  position: relative;
+  grid-column: 2 / -1;
+  grid-row: 2 / -1;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+}
+
+.homepage > img {
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+}
+
+.imgtext {
+  position: absolute;
+  top: 125px;
+  left: 390px;
+  text-shadow: 2px 2px black;
+  font-size: 24px;
+}
+
+.imgtext2 {
+  position: absolute;
+  top: 205px;
+  left: 327px;
+  text-shadow: 2px 2px black;
+  font-size: 19px;
+}
+
+.imgtext3 {
+  position: absolute;
+  top: 265px;
+  left: 307px;
+  text-shadow: 2px 2px black;
+  font-size: 17px;
+}
+
+.content {
+  grid-column: 2 / -1;
+  grid-row: 2/-1;
+  background-color: white;
+  padding: 10px;
+}
+
+.header {
+  grid-column: 2 / -1;
+  grid-row: 1 / 2;
+  display: inline;
+  color: white;
+  border-left: 0.5px solid white;
+}
+
+.header > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.header > ul > a {
+  float: left;
+  margin-left: 8px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.header > ul > a:hover {
+  background-color: #1b4e8c;
+}
+
+.menu {
+  grid-row: 1 / -1;
+  position: relative;
+  display: inline-block;
+}
+
+.menu > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.menu > ul > li {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.menu > ul > li > a {
+  display: block;
+  width: 80%;
+  color: white;
+  padding: 0px, 0px;
+  text-decoration: none;
+}
+
+.menu > ul > a:hover {
+  background-color: #1b4e8c
+}
+
+.menu > ul > li > a:hover {
+  background-color: #1b4e8c;
+}
+
+.menu > ul > li > a > img {
+  float: left;
+  max-width: 75px;
+  max-height: 75px;
+}
+
+/*.menu > ul > li > a of img changes background color*/
+
+.menu > ul > li > a > img:hover {
+  background-color: #0C1E36;
+}
+
+.dropdown > li {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.dropdown > li > a {
+  display: block;
+  width: 80%;
+  color: white;
+  padding: 0px, 0px;
+  text-decoration: none;
+}
+
+.dropdown > li > a:hover {
+  background-color: #1b4e8c;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding-top: 5px;
+  padding-right: 10px;
+  z-index: 1;
+  background-color: #0C1E36;
+}
+
+.dropdown-content > li {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.dropdown-content > a {
+  float: left;
+  width: 100%;
+  text-align: center;
+  display: block;
+  width: 80%;
+  color: white;
+  padding: 0px, 0px;
+  text-decoration: none;
+}
+
+.dropdown-content > a:hover {
+  background-color: #1b4e8c;
+}
+
+.dropdown:hover .dropdown-content {
+  display: inline-grid;
+}
+
+a:link, a:visited {
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
