@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PopCrop/static/css/main.9c71913f.css",
-    "main.js": "/PopCrop/static/js/main.3613e9b0.js",
+    "main.js": "/PopCrop/static/js/main.dfef9b93.js",
     "static/js/498.d622428e.chunk.js": "/PopCrop/static/js/498.d622428e.chunk.js",
     "static/js/703.863abf1d.chunk.js": "/PopCrop/static/js/703.863abf1d.chunk.js",
     "static/js/598.6b495b02.chunk.js": "/PopCrop/static/js/598.6b495b02.chunk.js",
@@ -65,13 +65,13 @@
     "static/media/KoreanMasters.png": "/PopCrop/static/media/KoreanMasters.218884cc409b34cdddae.png",
     "index.html": "/PopCrop/index.html",
     "main.9c71913f.css.map": "/PopCrop/static/css/main.9c71913f.css.map",
-    "main.3613e9b0.js.map": "/PopCrop/static/js/main.3613e9b0.js.map",
+    "main.dfef9b93.js.map": "/PopCrop/static/js/main.dfef9b93.js.map",
     "498.d622428e.chunk.js.map": "/PopCrop/static/js/498.d622428e.chunk.js.map",
     "703.863abf1d.chunk.js.map": "/PopCrop/static/js/703.863abf1d.chunk.js.map",
     "598.6b495b02.chunk.js.map": "/PopCrop/static/js/598.6b495b02.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9c71913f.css",
-    "static/js/main.3613e9b0.js"
+    "static/js/main.dfef9b93.js"
   ]
 }
