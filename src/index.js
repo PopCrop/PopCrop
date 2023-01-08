@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, BrowserRouter, Routes, Route } from "react-router-dom";
 import Badminton from "./routes/badminton/badminton";
 import BWFplayers from "./routes/badminton/BWFplayers";
 import BWFcalendar from "./routes/badminton/BWFcalendar"
@@ -22,7 +22,7 @@ import Cur from "./routes/finance/currencies"
 
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="badminton" element={<Badminton />} />
@@ -42,6 +42,6 @@ ReactDOM.render(
       <Route path="dumcks/dumcks" element={<Dumcks />} />
       <Route path="dumcks/callduck" element={<Callduck />} />
     </Routes>
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById('root')
 );
